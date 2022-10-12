@@ -1,0 +1,110 @@
+body {
+    min-height: 100vh; 
+    background-image: url(Gambar/background2.jpg);
+    padding: 75px 10px;
+    min-height: 100vh;    
+}
+
+.form-control:not(select) {
+    padding: 1.5rem 0.5rem;
+}
+
+select.form-control {
+    height: 52px;
+    padding-left: 0.5rem;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+
+.intro-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    color: #ffffff; }
+    @media (max-width: 991px) {
+      .intro-section {
+        padding-left: 50px;
+        padding-right: 50px; } }
+    @media (max-width: 767px) {
+      .intro-section {
+        padding: 28px; } }
+    @media (max-width: 575px) {
+      .intro-section {
+        min-height: auto; } }
+
+    .brand-wrapper {
+        height: 35px;
+        margin-bottom: 70px;}
+        
+    .brand-wrapper a {
+    color: #fff;}       
+
+  @media (max-width: 767px) {
+    .brand-wrapper {
+      margin-bottom: 35px; } }
+  
+  .intro-content-wrapper {
+    width: 500px;
+    margin-top: auto;
+    margin-bottom: auto; }
+    .intro-content-wrapper .intro-title {
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 50px; }
+    .intro-content-wrapper .intro-text {
+      font-size: 19px;
+      line-height: 1.37; }
+    .intro-content-wrapper .btn-read-more {
+      background-color: #fff;
+      padding: 13px 30px;
+      border-radius: 0;
+      font-size: 16px;
+      font-weight: bold;
+      color: #000;
+      margin-bottom: 50px; }
+      .intro-content-wrapper .btn-read-more:hover {
+        background-color: transparent;
+        border: 1px solid #fff;
+        color: #fff; }
+  
+  @media (max-width: 767px) {
+    .intro-section-footer {
+      margin-top: 35px; } }
+  
+  .intro-section-footer .footer-nav a {
+    font-size: 25px;
+    font-weight: bold;
+    color: inherit; }
+    @media (max-width: 767px) {
+      .intro-section-footer .footer-nav a {
+        font-size: 14px; } }
+    .intro-section-footer .footer-nav a + a {
+      margin-left: 30px; }
+  
+  .form-section {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center; }
+    @media (max-width: 767px) {
+      .form-section {
+        padding: 35px; } }
+
+    button {
+        background-color: #fff;
+    }
